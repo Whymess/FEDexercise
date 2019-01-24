@@ -7,6 +7,6 @@ Lay out and style the data in two columns.
 
 Part one: Code is broken down into several render functions that manipulate the DOM and two main parsing functions. For styling, I only the bootstrap card component.
 
-Part two: Rending is handled by reusable components and the render function. This allows for extreme flexibility, when deciding what should be rendered. The two API calls are placed within the componentDidMount lifecycle method. These API calls are done using promises. Similar to the design above, there are two parsing functions that go through each API response.
+Part two: Rendering is handled by reusable components and the render function. This enables flexibility, when deciding what should be displayed. The two API calls are placed within the componentDidMount lifecycle method. These API calls are done using promises. Similar to the design above, there are two parsing functions that go through each API response.
 
 To get up and running. Do an NPM install and NPM start.
