@@ -1,8 +1,6 @@
 (function() {
   "use strict";
 
-  // Code is broken down into render functions and two main parsing functions. 
-
   Promise.all([
     fetch(
       `http://mtrest.advance.net/mtrest/articles/?blog_id=3674&limit=10&offset=0`
@@ -14,8 +12,6 @@
       parseApiOne(apiOneResult);
       parseApiTwo(apiTwoResult);
     });
-
-
 
   function parseApiOne(apiOneResult) {
     var { result } = apiOneResult;
